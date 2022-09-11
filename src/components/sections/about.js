@@ -83,7 +83,7 @@ const StyledPic = styled.div`
       border-radius: var(--border-radius);
       // mix-blend-mode: multiply;
       // filter: grayscale(100%);
-      // transition: var(--transition);
+      transition: var(--transition);
     }
 
     &:before,
@@ -171,7 +171,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me2.jpg"
+              src={'../../images/me.jpg'}
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
