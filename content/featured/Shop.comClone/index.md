@@ -1,16 +1,19 @@
 ---
 date: '4'
-title: 'Shop.com Clone'
-cover: './shopcom.png'
-github: 'https://github.com/rameshmane7218/shop.com'
-medium: 'https://medium.com/@rameshmane7218/project-on-clone-of-shop-com-21cb01221a01'
-external: 'https://ephemeral-cactus-fa8c49.netlify.app/'
+title: 'Credobeauty Clone'
+cover: './Screenshot (548).png'
+github: 'https://github.com/Thannzz/credo-beauty-clone'
+medium: 'https://medium.com/@thanigai128/empty-page-to-a-e-commerce-1133b482867'
+external: 'https://peaceful-malasada-5bd031.netlify.app/'
 tech:
   - HTML
   - CSS
   - JavaScript
+  - DOM
 ---
 
 This is our first collaborative project at Masai School.
 
-SHOP.COM is a new kind of shopping comparison site that offers the most comprehensive shopping experience on the web.
+Credobeauty is a online Beauty Product website.
+We are member of 6 people and we executed the
+entire flow of an E-commerce website in 5 days.

@@ -105,22 +105,10 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        {/* <a href="https://github.com/bchiang7/v4">
-          <div>Thanks to Brittany Chiang</div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <div className="github-stats">
-              <span>
-                <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </div>
-          )}
-        </a> */}
+          <div>Contact No: +91 8124808929</div>
+          <br></br>
+          <div>Designed by Thanigaivel and Developed by Brittany Chiang</div>
+        
       </StyledCredit>
     </StyledFooter>
   );

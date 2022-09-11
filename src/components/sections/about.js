@@ -82,8 +82,8 @@ const StyledPic = styled.div`
       position: relative;
       border-radius: var(--border-radius);
       // mix-blend-mode: multiply;
-      // filter: grayscale(100%) contrast(1);
-      transition: var(--transition);
+      // filter: grayscale(100%);
+      // transition: var(--transition);
     }
 
     &:before,
@@ -132,12 +132,14 @@ const About = () => {
     'React',
     'Redux',
     'Chakra-UI',
-    'Styled Components',
     'Node.js',
+    'NPM',
     'Express',
     'MongoDB',
     'Mongoose',
-    'Firebase'
+    'Postman',
+    'Git',
+    'DSA',
   ];
 
   return (
@@ -147,7 +149,10 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Ramesh Mane, Currently learning full-stack web development with a specialization in MERN stack from Masai School. </p>
+            <p>
+              Hello World ! I'm Thanigaivel, Currently learning full-stack web development with a
+              specialization in MERN stack from Masai School.
+            </p>
             <p>
               Quick learner and an aspiring full-stack web developer with core knowledge of MERN
               stack technology. Looking forward to applying and enhancing my skills and knowledge as
@@ -166,7 +171,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me2.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

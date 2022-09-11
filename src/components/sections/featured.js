@@ -6,6 +6,7 @@ import sr from '@utils/sr';
 import { srConfig } from '@config';
 import { Icon } from '@components/icons';
 import { usePrefersReducedMotion } from '@hooks';
+import { transform } from 'lodash';
 
 const StyledProjectsGrid = styled.ul`
   ${({ theme }) => theme.mixins.resetList};
@@ -291,21 +292,21 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
+        // background-color: var(--navy);
         mix-blend-mode: screen;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      // mix-blend-mode: multiply;
+      // filter: grayscale(100%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
+        // filter: grayscale(100%) contrast(1) brightness(50%);
       }
     }
   }
@@ -365,17 +366,8 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const {
-              external,
-              title,
-              tech,
-              github,
-              medium,
-              cover,
-              cta,
-              awarded,
-              solo,
-            } = frontmatter;
+            const { external, title, tech, github, medium, cover, cta, awarded, solo } =
+              frontmatter;
             const image = getImage(cover);
             // console.log('Reward: ', title);
 
