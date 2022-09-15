@@ -105,10 +105,9 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-          <div>Contact No: +91 8124808929</div>
-          <br></br>
-          <div>Designed by Thanigaivel and Developed by Brittany Chiang</div>
-        
+        <div>Contact No: +91 8124808929</div>
+        <br></br>
+        {/* <div>Designed by Thanigaivel and Developed by Brittany Chiang</div> */}
       </StyledCredit>
     </StyledFooter>
   );
